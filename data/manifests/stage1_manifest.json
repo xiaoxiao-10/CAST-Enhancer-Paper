@@ -1,0 +1,197 @@
+{
+  "assembly": "GRCh38",
+  "chromosome_style": "chr",
+  "config_sha256": "d744a8fc79f7985cba7d47036c8417dd1d8f761eded8e611a32ed3c750735a1d",
+  "frozen_versions": {
+    "fantom5": "hg38_latest",
+    "gencode": "v50",
+    "ucsc": "GRCh38.p14"
+  },
+  "git_commit": "c04f8176fe1e25bd18876593a4573011239da9f8",
+  "global_checks": {
+    "all_expected_sizes_match": true,
+    "all_official_md5_values_match": true,
+    "all_required_chromosomes_present": true,
+    "all_sha256_values_frozen": true,
+    "fantom_identifier_order_match": true,
+    "required_fantom_libraries_present": true
+  },
+  "host": {
+    "node": "ubuntu24",
+    "platform": "Linux-7.0.0-28-generic-x86_64-with-glibc2.39"
+  },
+  "project": "CAST-Enhancer",
+  "resource_count": 13,
+  "resources": [
+    {
+      "local_path": "data/raw/atac/GM12878/ENCFF346CZA.bed.gz",
+      "md5": "2cf377c1abc07dc99d7b9767fa965792",
+      "resource_id": "encode_gm12878_atac_peak",
+      "sha256": "11c3c2b17becc712197d8358ecf1ac7edf0439fce694de52c7b9150b24391c5f",
+      "size_bytes": 3214602,
+      "structural_checks": {
+        "required_chromosomes_present": true,
+        "rows": 138366
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/atac/GM12878/ENCFF487LOB.bigWig",
+      "md5": "f95a4eeec1156e2e1dc392ab988ae28a",
+      "resource_id": "encode_gm12878_atac_signal",
+      "sha256": "3f02fe8f30f0afa2f288761d2651734a2b9cd125f44441c7b0cb2fa9443b87ec",
+      "size_bytes": 869846542,
+      "structural_checks": {
+        "chromosome_records": 139,
+        "probe_finite_values": 1000,
+        "required_chromosomes_present": true
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/atac/HepG2/ENCFF536RJV.bed.gz",
+      "md5": "4020785aaa90efbebc5a3fc92b5a9cff",
+      "resource_id": "encode_hepg2_atac_peak",
+      "sha256": "7f3140f4e8415a09ab957f0cfc0c1b54ebed107710f6483f17f63b9db618c0e4",
+      "size_bytes": 4652900,
+      "structural_checks": {
+        "required_chromosomes_present": true,
+        "rows": 198597
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/atac/HepG2/ENCFF645OHB.bigWig",
+      "md5": "db283be676775d914aed67e9806dd7c2",
+      "resource_id": "encode_hepg2_atac_signal",
+      "sha256": "18c2d56bc309fdaf43ebfb632889e123a0ef851ba6af44aa16f0c4fc19807539",
+      "size_bytes": 4486276605,
+      "structural_checks": {
+        "chromosome_records": 158,
+        "probe_finite_values": 1000,
+        "required_chromosomes_present": true
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/reference/ENCFF356LFX.bed.gz",
+      "md5": "393688b4f06c9ce26165d47433dd8c37",
+      "resource_id": "encode_hg38_blacklist",
+      "sha256": "a9d086ce90ca67f933b29adfbff56ea768bbce2ec4b0d51e2d405e5a1d61bb56",
+      "size_bytes": 8211,
+      "structural_checks": {
+        "required_chromosomes_present": true,
+        "rows": 910
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/atac/K562/ENCFF855PCP.bed.gz",
+      "md5": "bee81b0efe50b144c24d2060a87aa843",
+      "resource_id": "encode_k562_atac_peak",
+      "sha256": "47a71eaac0bfbad586a14d89971398c8922bf8864b5eeab4cb58d37ae925e0e9",
+      "size_bytes": 4047527,
+      "structural_checks": {
+        "required_chromosomes_present": true,
+        "rows": 172732
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/atac/K562/ENCFF102ARJ.bigWig",
+      "md5": "55f5a2e4590784a960b785a31ed4b85a",
+      "resource_id": "encode_k562_atac_signal",
+      "sha256": "77e9b09da35223fafa0888ba2146c58b0eda828e295717aefee4df3c293d2b6c",
+      "size_bytes": 4514690311,
+      "structural_checks": {
+        "chromosome_records": 165,
+        "probe_finite_values": 1000,
+        "required_chromosomes_present": true
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/fantom5/F5.hg38.enhancers.bed.gz",
+      "md5": "cf1615042a9043ae982b4274b2381e42",
+      "resource_id": "fantom5_enhancer_bed",
+      "sha256": "fe1f161aeb88ef62243149269549e65989420c35b04c5c96cc6fc5076244afec",
+      "size_bytes": 1665642,
+      "structural_checks": {
+        "identifier_order_sha256": "1f00b3f40ed8d2993b5d91c22758b47821f672b582f9a130ead5945dd8ccb377",
+        "required_chromosomes_present": true,
+        "rows": 63285
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/fantom5/F5.hg38.enhancers.expression.tpm.matrix.gz",
+      "md5": "e241ef99192c03caf20a355d9d1b8ef4",
+      "resource_id": "fantom5_tpm_matrix",
+      "sha256": "578ce50e3b5cda2ced84982f4fb23eac2a739024902b5d8d839f33f194080aa8",
+      "size_bytes": 87604972,
+      "structural_checks": {
+        "identifier_order_sha256": "1f00b3f40ed8d2993b5d91c22758b47821f672b582f9a130ead5945dd8ccb377",
+        "libraries": 1829,
+        "required_libraries_present": true,
+        "rows": 63285
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/fantom5/F5.hg38.enhancers.expression.usage.matrix.gz",
+      "md5": "529d65a6a2def60fb4def015108658f9",
+      "resource_id": "fantom5_usage_matrix",
+      "sha256": "41ea4aeedc0ba09f035c9375945b05c9b137c0e538265b60ab23f463b3338c2d",
+      "size_bytes": 3304373,
+      "structural_checks": {
+        "identifier_order_sha256": "1f00b3f40ed8d2993b5d91c22758b47821f672b582f9a130ead5945dd8ccb377",
+        "libraries": 1829,
+        "required_libraries_present": true,
+        "rows": 63285
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/reference/gencode.v50.annotation.gtf.gz",
+      "md5": "2d273848c6068682fabea72fae4896a9",
+      "resource_id": "gencode_v50_gtf",
+      "sha256": "83fba3e9b03f0b8c958f3595c6c350adc55f468abf8b0e47b6d5284cfe13a453",
+      "size_bytes": 124527720,
+      "structural_checks": {
+        "feature_rows": 11242714,
+        "gene_rows": 78733,
+        "required_chromosomes_present": true
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/reference/hg38.chrom.sizes",
+      "md5": "40ff8101afa7a5dd3a866910507e6504",
+      "resource_id": "ucsc_hg38_chrom_sizes",
+      "sha256": "33c11f8b76812ebb6504257f4dc51b4358230a6bb52b88048fa172aceb3d91fb",
+      "size_bytes": 18688,
+      "structural_checks": {
+        "chromosome_records": 711,
+        "required_chromosomes_present": true
+      },
+      "validation_status": "PASSED"
+    },
+    {
+      "local_path": "data/raw/reference/hg38.fa.gz",
+      "md5": "efb4edf237dd3594e94610ed803c8a44",
+      "resource_id": "ucsc_hg38_fasta",
+      "sha256": "ae25ebe0b855e54e823f0b055c0b5e032e7a531dc0b47a440ddae7d2da26c20c",
+      "size_bytes": 1012013082,
+      "structural_checks": {
+        "required_chromosomes_present": true,
+        "sequence_records": 711
+      },
+      "validation_status": "PASSED"
+    }
+  ],
+  "schema_version": "cast-enhancer/stage1-manifest/1.0",
+  "stage": 1,
+  "status": "PASSED",
+  "total_bytes": 11111871175,
+  "validated_at_utc": "2026-08-19T02:43:51.173089+00:00"
+}

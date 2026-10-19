@@ -1,0 +1,5 @@
+subset	dact	cells	point_delta	ci_lo	ci_hi
+unseen	all	11	0.0175	0.0101	0.0291
+unseen	dev_active	11	0.0810	0.0501	0.1219
+seen	dev_active	11	0.0487	0.0203	0.0747
+unseen	dev_inactive	9	-0.0007	-0.0073	0.0013

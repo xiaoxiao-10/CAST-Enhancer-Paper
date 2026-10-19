@@ -1,0 +1,197 @@
+{
+  "atac_raw_files_opened": [],
+  "built_at_utc": "2026-08-19T03:45:24.628419+00:00",
+  "cell_count": 3,
+  "cell_label_counts": {
+    "GM12878": {
+      "ambiguous": 1613,
+      "missing": 0,
+      "negative": 57520,
+      "positive": 4152
+    },
+    "HepG2": {
+      "ambiguous": 1189,
+      "missing": 0,
+      "negative": 60219,
+      "positive": 1877
+    },
+    "K562": {
+      "ambiguous": 1146,
+      "missing": 0,
+      "negative": 61091,
+      "positive": 1048
+    }
+  },
+  "checks": {
+    "all_tpm_values_complete": true,
+    "all_usage_values_complete": true,
+    "atac_files_opened_zero": true,
+    "bed_usage_tpm_identifier_join_complete": true,
+    "expected_cell_row_counts": true,
+    "expected_enhancer_count": true,
+    "parquet_full_semantic_readback_passed": true,
+    "stage1_gate_passed": true,
+    "tpm_not_used_for_labels": true
+  },
+  "config_sha256": "35991835b373446a2143ecc9463774aabfc248d5dfff09a303f25c27a73d12fb",
+  "enhancer_count": 63285,
+  "git_commit": "7923ebc2dc188d2d1f699e5b4d1c05510deddf4c",
+  "label_definition": {
+    "ambiguous": "exactly 1 of 3 usage replicates equals 1",
+    "missing": "at least one usage replicate is missing",
+    "negative": "all 3 usage replicates equal 0",
+    "positive": "at least 2 of 3 usage replicates equal 1",
+    "strict_positive_sensitivity": "all 3 usage replicates equal 1",
+    "tpm_not_used_for_labels": true
+  },
+  "matrix_headers": {
+    "tpm": {
+      "header_has_identifier_placeholder": true,
+      "library_count": 1829
+    },
+    "usage": {
+      "header_has_identifier_placeholder": false,
+      "library_count": 1829
+    }
+  },
+  "outputs": {
+    "label_counts": {
+      "path": "results/statistics/stage2_label_counts.tsv",
+      "sha256": "4d8f8094676ceaf00cc4032c10182e2a24d50e3c67f5e038768445d9a42e91e9",
+      "size_bytes": 1188
+    },
+    "labels": {
+      "path": "data/interim/labels.parquet",
+      "sha256": "17a930634ea862526155e948819e0467e07cea2557a84e0c5918c777e7c73ec7",
+      "size_bytes": 2739676
+    },
+    "pairwise_agreement": {
+      "path": "results/statistics/stage2_pairwise_agreement.tsv",
+      "sha256": "28290c1f95986241297557b210e14f61770f8ce944d788b49d8561328358e0bf",
+      "size_bytes": 836
+    },
+    "replicate_activity": {
+      "path": "results/statistics/stage2_replicate_activity.tsv",
+      "sha256": "fdda9b333329482d7d912e4087d90aef937c518e416ee41c574f2fdb2e17af63",
+      "size_bytes": 715
+    },
+    "summary": {
+      "path": "results/statistics/stage2_label_summary.json",
+      "sha256": "ad857d2ea2676d17a691e110725d246dd4c65a3d66433f352f160cbc514ea7c3",
+      "size_bytes": 18724
+    },
+    "tpm_summary": {
+      "path": "results/statistics/stage2_tpm_summary.tsv",
+      "sha256": "425ea617599c693cd9539d5f4555e4177874353876893c68f6cfd0236ea2226b",
+      "size_bytes": 2754
+    }
+  },
+  "parquet": {
+    "columns": 23,
+    "row_groups": 3,
+    "rows": 189855,
+    "schema_names": [
+      "enhancer_id",
+      "chromosome",
+      "start",
+      "end",
+      "enhancer_length",
+      "cell",
+      "replicate_1_id",
+      "replicate_2_id",
+      "replicate_3_id",
+      "usage_rep1",
+      "usage_rep2",
+      "usage_rep3",
+      "usage_active_count",
+      "label",
+      "primary_eligible",
+      "strict_label_3of3",
+      "strict_eligible",
+      "tpm_rep1",
+      "tpm_rep2",
+      "tpm_rep3",
+      "tpm_complete",
+      "mean_tpm",
+      "log1p_mean_tpm"
+    ],
+    "semantic_checks": {
+      "all_rows_rule_recomputed": true,
+      "all_selected_cage_values_complete": true,
+      "all_tpm_targets_recomputed": true,
+      "cell_enhancer_universes_identical": true,
+      "cell_label_counts": {
+        "GM12878": {
+          "ambiguous": 1613,
+          "missing": 0,
+          "negative": 57520,
+          "positive": 4152
+        },
+        "HepG2": {
+          "ambiguous": 1189,
+          "missing": 0,
+          "negative": 60219,
+          "positive": 1877
+        },
+        "K562": {
+          "ambiguous": 1146,
+          "missing": 0,
+          "negative": 61091,
+          "positive": 1048
+        }
+      },
+      "cell_rows": {
+        "GM12878": 63285,
+        "HepG2": 63285,
+        "K562": 63285
+      },
+      "enhancer_cell_keys_unique": true,
+      "unique_enhancer_cell_pairs": 189855,
+      "unique_enhancers_per_cell": {
+        "GM12878": 63285,
+        "HepG2": 63285,
+        "K562": 63285
+      }
+    }
+  },
+  "project": "CAST-Enhancer",
+  "raw_files_opened": [
+    "data/raw/fantom5/F5.hg38.enhancers.bed.gz",
+    "data/raw/fantom5/F5.hg38.enhancers.expression.usage.matrix.gz",
+    "data/raw/fantom5/F5.hg38.enhancers.expression.tpm.matrix.gz"
+  ],
+  "raw_input_scope": "fantom5_cage_only",
+  "row_count": 189855,
+  "schema_version": "cast-enhancer/stage2-manifest/1.0",
+  "stage": 2,
+  "stage1_provenance": {
+    "checkpoint_path": "results/checkpoints/stage1_acceptance.json",
+    "checkpoint_sha256": "becd95ab6cbe1a3171e1ff4a7f0f8a993c0ef6eb017d000bdca70935dac55f56",
+    "inputs": [
+      {
+        "path": "data/raw/fantom5/F5.hg38.enhancers.bed.gz",
+        "resource_id": "fantom5_enhancer_bed",
+        "role": "enhancer_bed",
+        "sha256": "fe1f161aeb88ef62243149269549e65989420c35b04c5c96cc6fc5076244afec",
+        "size_bytes": 1665642
+      },
+      {
+        "path": "data/raw/fantom5/F5.hg38.enhancers.expression.usage.matrix.gz",
+        "resource_id": "fantom5_usage_matrix",
+        "role": "usage_matrix",
+        "sha256": "41ea4aeedc0ba09f035c9375945b05c9b137c0e538265b60ab23f463b3338c2d",
+        "size_bytes": 3304373
+      },
+      {
+        "path": "data/raw/fantom5/F5.hg38.enhancers.expression.tpm.matrix.gz",
+        "resource_id": "fantom5_tpm_matrix",
+        "role": "tpm_matrix",
+        "sha256": "578ce50e3b5cda2ced84982f4fb23eac2a739024902b5d8d839f33f194080aa8",
+        "size_bytes": 87604972
+      }
+    ],
+    "manifest_path": "data/raw/stage1_manifest.json",
+    "manifest_sha256": "8572be11818b26b291dc636a440b80bcae9b86823c4e4258ff73f3940a6e240a"
+  },
+  "status": "PASSED"
+}

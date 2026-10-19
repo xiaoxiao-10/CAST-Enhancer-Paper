@@ -1,0 +1,6 @@
+source_repo: CAST-Enhancer
+source_branch: paper/v3-manuscript-draft
+source_commit: 7fb20a2
+migration_date: 2026-10-19
+migration_scope: manuscript, main and supplementary figures, tables, frozen aggregate results, manuscript-build and figure-build code, data manifests, provenance notes
+excluded: raw data, model checkpoints, prediction arrays, zarr stores, temporary render directories, failed experimental branches

@@ -1,0 +1,12 @@
+celltype	n_libs	need	pos	neg	ambiguous	total
+mature adipocyte	4	3	1742	58232	3311	63285
+Endothelial Cells - Aortic	4	3	461	59951	2873	63285
+Bronchial Epithelial Cell	7	5	195	60162	2928	63285
+Olfactory epithelial cells	4	3	409	61482	1394	63285
+Fibroblast - Cardiac	6	4	296	59530	3459	63285
+Fibroblast - Gingival	13	9	353	57692	5240	63285
+CD19+ B Cells (pluriselect)	8	6	906	59385	2994	63285
+CD8+ T Cells (pluriselect)	8	6	803	58168	4314	63285
+Skeletal Muscle Cells	6	4	513	59059	3713	63285
+Smooth Muscle Cells - Aortic	4	3	288	60760	2237	63285
+Mesenchymal Stem Cells - bone marrow	4	3	191	61447	1647	63285

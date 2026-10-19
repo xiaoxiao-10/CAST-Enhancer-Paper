@@ -1,0 +1,13 @@
+2cf377c1abc07dc99d7b9767fa965792  data/raw/atac/GM12878/ENCFF346CZA.bed.gz
+2d273848c6068682fabea72fae4896a9  data/raw/reference/gencode.v50.annotation.gtf.gz
+393688b4f06c9ce26165d47433dd8c37  data/raw/reference/ENCFF356LFX.bed.gz
+4020785aaa90efbebc5a3fc92b5a9cff  data/raw/atac/HepG2/ENCFF536RJV.bed.gz
+40ff8101afa7a5dd3a866910507e6504  data/raw/reference/hg38.chrom.sizes
+529d65a6a2def60fb4def015108658f9  data/raw/fantom5/F5.hg38.enhancers.expression.usage.matrix.gz
+55f5a2e4590784a960b785a31ed4b85a  data/raw/atac/K562/ENCFF102ARJ.bigWig
+bee81b0efe50b144c24d2060a87aa843  data/raw/atac/K562/ENCFF855PCP.bed.gz
+cf1615042a9043ae982b4274b2381e42  data/raw/fantom5/F5.hg38.enhancers.bed.gz
+db283be676775d914aed67e9806dd7c2  data/raw/atac/HepG2/ENCFF645OHB.bigWig
+e241ef99192c03caf20a355d9d1b8ef4  data/raw/fantom5/F5.hg38.enhancers.expression.tpm.matrix.gz
+efb4edf237dd3594e94610ed803c8a44  data/raw/reference/hg38.fa.gz
+f95a4eeec1156e2e1dc392ab988ae28a  data/raw/atac/GM12878/ENCFF487LOB.bigWig

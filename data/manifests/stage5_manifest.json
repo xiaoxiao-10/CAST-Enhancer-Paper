@@ -1,0 +1,132 @@
+{
+  "built_at_utc": "2026-08-19T13:36:33.080484+00:00",
+  "config_sha256": "c9ab46d96f006751f02d664f7cdd17f2456b29fa60183aec75c47201535b0fc1",
+  "definitions": {
+    "cross_split_policy": "exclude_all_records_for_conflicting_enhancer_or_sequence_hash",
+    "final_row_alignment": "model_samples.sample_index equals model_atac/profile row",
+    "intra_split_duplicates": "retained; same-locus records across cells are allowed",
+    "normalization": "Stage 4 per-cell training-only median/IQR; accepted only when no training rows are excluded",
+    "source_row_alignment": "source_stage4_sample_index indexes Stage 4 artifacts",
+    "training_authorization": "data gate may pass at Stage 5, but runtime unlock requires explicit Stage 6 start"
+  },
+  "gate_decision": {
+    "modeling_data_ready": true,
+    "runtime_deep_learning_allowed": false,
+    "stage5_data_gate_passed": true,
+    "stage6_start_required_for_runtime_unlock": true
+  },
+  "git_commit": "cec08551652c4d061dde43dc99880779e899262f",
+  "input_provenance": {
+    "inputs": [
+      {
+        "path": "data/processed/samples.parquet",
+        "role": "samples",
+        "sha256": "5349a84c770d39d3f6a6ab4305ddb521c6fe9a1a566807d88064137feac2fb5e",
+        "size_bytes": 19370972,
+        "source_checkpoint": "stage4"
+      },
+      {
+        "file_count": 32,
+        "path": "data/processed/atac.zarr",
+        "role": "atac",
+        "size_bytes": 34554406,
+        "source_checkpoint": "stage4",
+        "tree_sha256": "ad3a68b12df038cb603b6f00739a2746218615da05e877d405fa0be4cb7dcb42"
+      },
+      {
+        "path": "data/processed/atac_scaling.json",
+        "role": "scaling",
+        "sha256": "deeddfa7419a23690c2c69114e259259277e783a7d2c27f2d98e9f087056bf26",
+        "size_bytes": 1083,
+        "source_checkpoint": "stage4"
+      }
+    ],
+    "stage4_checkpoint": "results/checkpoints/stage4_acceptance.json",
+    "stage4_checkpoint_sha256": "dcfbf3ff40b27ca97853e74032750fba22cd622893c89f9b9a0e10c0a306f751",
+    "stage4_config_sha256": "506f9c27a1fa6b10c4a320db4ddf532ab4afe378a02e2bafecdc37b325523e43",
+    "stage4_manifest": "data/processed/dataset_manifest.json",
+    "stage4_manifest_sha256": "688c2139d27b723c39b30c98e5796d17dfde2ab18919b37cc274c2133a070e1e",
+    "stage4_sample_rows": 28355
+  },
+  "outputs": {
+    "atac": {
+      "file_count": 32,
+      "path": "data/processed/model_atac.zarr",
+      "size_bytes": 34554566,
+      "tree_sha256": "708a0380003f03bae9dc4f3b1b6726ead57465bfe39b0b093eeb6a0b39fdc46e"
+    },
+    "checks": {
+      "path": "results/statistics/stage5_qc_checks.tsv",
+      "sha256": "b0134e831f77c51680e3dfe7e143e6b8354925a64e9551e81d5e0ed296dea63c",
+      "size_bytes": 3854
+    },
+    "exclusions": {
+      "path": "results/statistics/stage5_exclusions.tsv",
+      "sha256": "8e14960409cbc01863016c0db15853c964da29e90a2dac336576971a549eea93",
+      "size_bytes": 83
+    },
+    "sample_counts": {
+      "path": "results/statistics/stage5_sample_counts.tsv",
+      "sha256": "a4d432734de7e76597e9de6ea98f9e62cbd85a03028fd7ce2a4f7fbf913edf6b",
+      "size_bytes": 510
+    },
+    "samples": {
+      "path": "data/processed/model_samples.parquet",
+      "sha256": "5b25554271e0c7d062000bc04144654f9f841271ca3dd8008642e4e2395635aa",
+      "size_bytes": 19453224
+    },
+    "scaling": {
+      "path": "data/processed/model_atac_scaling.json",
+      "sha256": "ec4b7e55498fabc766cbfdd176f5e06676053b27128791f086df1a4195499f2e",
+      "size_bytes": 1343
+    },
+    "summary": {
+      "path": "results/statistics/stage5_qc_summary.json",
+      "sha256": "4603dab3ed21301b36986b532a600050cdd11a74c538c9c93521393645116f08",
+      "size_bytes": 15948
+    }
+  },
+  "project": "CAST-Enhancer",
+  "readback": {
+    "atac": {
+      "array": "profile",
+      "chunks": [
+        1024,
+        400
+      ],
+      "dtype": "float32",
+      "file_count": 32,
+      "finite": true,
+      "shape": [
+        28355,
+        400
+      ],
+      "size_bytes": 34554566,
+      "tree_sha256": "708a0380003f03bae9dc4f3b1b6726ead57465bfe39b0b093eeb6a0b39fdc46e"
+    },
+    "samples": {
+      "columns": 52,
+      "cross_split_enhancer_ids": 0,
+      "cross_split_sequence_hashes": 0,
+      "row_groups": 1,
+      "rows": 28355,
+      "sample_id_unique": true,
+      "sample_index_contiguous": true
+    }
+  },
+  "schema_version": "cast-enhancer/stage5-manifest/1.0",
+  "stage": 5,
+  "status": "PASSED",
+  "validation": {
+    "all_blocking_checks_passed": true,
+    "atac_finite": true,
+    "blocking_check_count": 46,
+    "count_gate_passed": true,
+    "cross_split_enhancer_ids": 0,
+    "cross_split_sequence_hashes": 0,
+    "excluded_rows": 0,
+    "final_rows": 28355,
+    "passed_blocking_check_count": 46,
+    "source_rows": 28355
+  }
+}

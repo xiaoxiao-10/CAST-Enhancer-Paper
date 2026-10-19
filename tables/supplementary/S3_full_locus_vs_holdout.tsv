@@ -1,0 +1,10 @@
+experiment	locus_set	model	macro_lift	note
+full_locus	all	NT-LoRA	10.333	five-seed ensemble; training and evaluation share loci
+full_locus	all	composition	6.017	five-seed ensemble; training and evaluation share loci
+full_locus	all	DNA-CNN	5.419	five-seed ensemble; training and evaluation share loci
+locus_holdout	unseen	NT-LoRA	8.348	five-seed ensemble; 20% loci excluded from training
+locus_holdout	unseen	composition	5.662	five-seed ensemble; 20% loci excluded from training
+locus_holdout	unseen	DNA-CNN	5.062	five-seed ensemble; 20% loci excluded from training
+locus_holdout	retained	NT-LoRA	9.487	five-seed ensemble; retained 80% loci
+locus_holdout	retained	composition	6.208	five-seed ensemble; retained 80% loci
+locus_holdout	retained	DNA-CNN	5.612	five-seed ensemble; retained 80% loci

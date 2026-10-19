@@ -1,0 +1,7 @@
+locus_set	development_activity	composition_logistic	composition_xgboost	motif_xgboost	composition_motif_xgboost	nt_lora	delta_nt_minus_composition_xgboost	delta_ci_low	delta_ci_high
+seen	all	0.042253	0.062803	0.030638	0.049972	0.062250	-0.000553		
+seen	dev_active	0.224392	0.234132	0.143509	0.207114	0.273049	0.038918	0.015451	0.061380
+seen	dev_inactive	0.009189	0.008975	0.008373	0.008382	0.009218	0.000243		
+unseen	all	0.036923	0.043800	0.022281	0.039843	0.054416	0.010616	0.003004	0.021556
+unseen	dev_active	0.160505	0.242539	0.103086	0.211471	0.241469	-0.001070	-0.035844	0.036537
+unseen	dev_inactive	0.010343	0.011681	0.009838	0.009202	0.009648	-0.002033	-0.013778	0.000722

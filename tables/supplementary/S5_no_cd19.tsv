@@ -1,0 +1,5 @@
+subset	dact	cells	nt_minus_comp_all	nt_minus_comp_without_CD19
+seen	dev_active	11	0.0487	0.0498
+unseen	all	11	0.0175	0.0175
+unseen	dev_active	11	0.0810	0.0815
+unseen	dev_inactive	9	-0.0007	-0.0009

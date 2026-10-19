@@ -1,0 +1,36 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Raw data, checkpoints and arrays
+data/raw/
+data/interim/
+data/processed/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npy
+*.npz
+*.parquet
+*.zarr/
+*.bigWig
+*.bw
+*.bam
+*.bai
+*.fa
+*.fasta
+*.fai
+*.2bit
+
+# Large export artefacts
+*.tiff
+*.tif
+
+# Local overrides
+.env
+*.secret.yaml

@@ -1,0 +1,25 @@
+enhancer_id	set	pattern	K562	HepG2	GM12878	Adipocyte	Endothelial	Bronchial	Olfactory	Fibro-cardiac	Fibro-gingival	CD19 B	CD8 T	Skeletal muscle	Smooth muscle	MSC
+chr10:100997551-100997938	retained	shared	0	1	1	0	0	0	0	0	0	1	1	0	0	0
+chr10:102133384-102133833	retained	shared	1	1	1	1	1	0	0	0	0	0	0	1	0	1
+chr10:103696542-103696785	retained	shared	0	0	1	0	0	0	0	0	0	0	0	0	1	0
+chr10:104120786-104121582	retained	shared	0	1	1	1	1	0	1	0	0	0	0	0	0	1
+chr10:100375012-100375253	retained	dev_only	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+chr10:100970119-100970528	retained	dev_only	0	1	0	0	0	0	0	0	0	0	0	0	0	0
+chr10:101903937-101904238	retained	dev_only	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+chr10:102436493-102436661	retained	dev_only	1	0	0	0	0	0	0	0	0	0	0	0	0	0
+chr10:100008181-100008444	retained	held_only	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+chr10:100371026-100371570	retained	held_only	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+chr10:102627822-102628182	retained	held_only	0	0	0	1	0	0	0	1	0	0	0	0	1	0
+chr10:102785924-102786158	retained	held_only	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+chr10:100043485-100043744	retained	inactive	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+chr10:100114218-100114567	retained	inactive	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+chr10:100148595-100148922	retained	inactive	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+chr10:100182422-100182522	retained	inactive	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+chr10:110864597-110865066	held	shared	0	0	1	0	0	0	0	0	0	0	1	0	0	0
+chr10:122113356-122113915	held	shared	0	1	0	1	1	0	0	0	0	0	0	1	0	0
+chr10:102117707-102118218	held	dev_only	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+chr10:102796463-102796701	held	dev_only	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+chr10:100006233-100006603	held	held_only	0	0	0	0	1	0	1	1	0	0	0	0	0	0
+chr10:10911509-10911760	held	held_only	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+chr10:100014348-100014634	held	inactive	0	0	0	0	0	0	0	0	0	0	0	0	0	0
+chr10:100020065-100020562	held	inactive	0	0	0	0	0	0	0	0	0	0	0	0	0	0

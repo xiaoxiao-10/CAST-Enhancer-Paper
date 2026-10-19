@@ -1,0 +1,10 @@
+definition	stratum	cells	point_delta	ci_lo	ci_hi	note
+all_loci	all	11	0.0175	0.0101	0.0291	main analysis
+all_loci	dev_active	11	0.0810	0.0501	0.1219	main analysis
+all_loci	dev_inactive	9	-0.0007	-0.0073	0.0013	main analysis; cells with >=10 positives
+remove_any_overlap	all	11	0.0184	0.0092	0.0324	held-out loci whose 2 kb window overlaps any retained window removed
+remove_any_overlap	dev_active	11	0.0667	0.0208	0.1131	held-out loci whose 2 kb window overlaps any retained window removed
+remove_any_overlap	dev_inactive	7	-0.0003	-0.0046	0.0013	7 cells with >=10 positives after overlap removal
+remove_500bp_overlap	all	11	0.0175	0.0084	0.0317	held-out loci with >=500 bp overlap to a retained window removed
+remove_500bp_overlap	dev_active	11	0.0543	0.0065	0.0997	held-out loci with >=500 bp overlap to a retained window removed
+remove_500bp_overlap	dev_inactive	7	0.0002	-0.0033	0.0021	7 cells with >=10 positives after overlap removal

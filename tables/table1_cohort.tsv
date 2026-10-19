@@ -1,0 +1,21 @@
+block	cell	split	n_libraries	threshold	positives	negatives	prevalence
+development	K562	train	3	2/3	582	35614	0.016079124765167423
+development	K562	validation	3	2/3	87	4126	0.020650367908853547
+development	K562	test	3	2/3	134	7974	0.016526887025160336
+development	HepG2	train	3	2/3	1115	35029	0.030848826914563966
+development	HepG2	validation	3	2/3	155	4061	0.03676470588235294
+development	HepG2	test	3	2/3	197	7917	0.02427902390929258
+development	GM12878	train	3	2/3	2389	33523	0.06652372466028068
+development	GM12878	validation	3	2/3	340	3852	0.08110687022900763
+development	GM12878	test	3	2/3	456	7569	0.05682242990654206
+held-out	mature adipocyte	all	4	3/4	1742	58232	0.029045919898622735
+held-out	Endothelial Cells - Aortic	all	4	3/4	461	59951	0.007630934251473217
+held-out	Bronchial Epithelial Cell	all	7	5/7	195	60162	0.0032307768775784083
+held-out	Olfactory epithelial cells	all	4	3/4	409	61482	0.006608392173336996
+held-out	Fibroblast - Cardiac	all	6	4/6	296	59530	0.00494768161000234
+held-out	Fibroblast - Gingival	all	13	9/13	353	57692	0.00608148850030149
+held-out	CD19+ B Cells (pluriselect)	all	8	6/8	906	59385	0.015027118475394338
+held-out	CD8+ T Cells (pluriselect)	all	8	6/8	803	58168	0.0136168625256482
+held-out	Skeletal Muscle Cells	all	6	4/6	513	59059	0.008611428187739207
+held-out	Smooth Muscle Cells - Aortic	all	4	3/4	288	60760	0.0047175992661512255
+held-out	Mesenchymal Stem Cells - bone marrow	all	4	3/4	191	61447	0.003098737791622051

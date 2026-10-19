@@ -1,0 +1,39 @@
+cell	subset	chrset	n	pos	delta
+mature adipocyte	unseen	train_chr	694	62	0.08820440297997448
+mature adipocyte	unseen	valtest_chr	246	17	0.1451822860989296
+mature adipocyte	seen	train_chr	2862	235	0.0606590645859138
+mature adipocyte	seen	valtest_chr	949	76	0.04169330698521728
+Endothelial Cells - Aortic	unseen	train_chr	682	27	0.04596569455283919
+Endothelial Cells - Aortic	seen	train_chr	2838	92	0.06551158931561005
+Endothelial Cells - Aortic	seen	valtest_chr	945	33	0.04842336985734971
+Bronchial Epithelial Cell	unseen	train_chr	694	17	0.09230601601460128
+Bronchial Epithelial Cell	seen	train_chr	2793	55	0.007920896782317693
+Bronchial Epithelial Cell	seen	valtest_chr	930	21	-0.07764765307079913
+Olfactory epithelial cells	unseen	train_chr	740	23	0.07420501060859289
+Olfactory epithelial cells	unseen	valtest_chr	264	10	0.06178687211409625
+Olfactory epithelial cells	seen	train_chr	2978	95	0.012967208569154037
+Olfactory epithelial cells	seen	valtest_chr	993	28	0.04498227934544208
+Fibroblast - Cardiac	unseen	train_chr	686	26	0.05947146401856562
+Fibroblast - Cardiac	seen	train_chr	2798	100	0.08020427879848807
+Fibroblast - Cardiac	seen	valtest_chr	920	35	0.03810202272532809
+Fibroblast - Gingival	unseen	train_chr	660	30	0.15533770398385485
+Fibroblast - Gingival	seen	train_chr	2659	103	0.08338367388624418
+Fibroblast - Gingival	seen	valtest_chr	882	35	0.009057328385657537
+CD19+ B Cells (pluriselect)	unseen	train_chr	633	71	0.08036817254657203
+CD19+ B Cells (pluriselect)	unseen	valtest_chr	225	17	0.09745143994724562
+CD19+ B Cells (pluriselect)	seen	train_chr	2574	298	0.04104276633635867
+CD19+ B Cells (pluriselect)	seen	valtest_chr	882	99	0.026401856871402507
+CD8+ T Cells (pluriselect)	unseen	train_chr	632	43	0.08461291102295526
+CD8+ T Cells (pluriselect)	unseen	valtest_chr	230	15	0.1355128222975608
+CD8+ T Cells (pluriselect)	seen	train_chr	2562	205	0.07754737838245127
+CD8+ T Cells (pluriselect)	seen	valtest_chr	861	72	0.06967966853750185
+Skeletal Muscle Cells	unseen	train_chr	694	39	0.12885837622422847
+Skeletal Muscle Cells	unseen	valtest_chr	247	13	0.21352905369180847
+Skeletal Muscle Cells	seen	train_chr	2787	160	0.10824658749211591
+Skeletal Muscle Cells	seen	valtest_chr	925	56	0.01168159339498942
+Smooth Muscle Cells - Aortic	unseen	train_chr	712	17	0.03252535745744618
+Smooth Muscle Cells - Aortic	seen	train_chr	2903	73	-0.006110878253605179
+Smooth Muscle Cells - Aortic	seen	valtest_chr	964	28	-0.02067132423498788
+Mesenchymal Stem Cells - bone marrow	unseen	train_chr	717	20	0.07667333948978491
+Mesenchymal Stem Cells - bone marrow	seen	train_chr	2886	69	0.08645748986339094
+Mesenchymal Stem Cells - bone marrow	seen	valtest_chr	971	26	-0.025667166811047026
